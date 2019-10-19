@@ -1,5 +1,6 @@
-$('.nav-link').click((event)=>{
+$('.nav-item').click((event)=>{
     $('.active').toggleClass('active')
-    $(event.target).addClass('active')
+    console.dir(event.target)
+    $(event.target.parentNode).addClass('active')
 })
 
