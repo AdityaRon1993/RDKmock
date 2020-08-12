@@ -1,0 +1,27 @@
+{
+  "name": "rdk",
+  "version": "1.0.0",
+  "description": "rdk main website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdityaRon1993/RDKmock.git"
+  },
+  "keywords": [
+    "rdk"
+  ],
+  "author": "rdk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdityaRon1993/RDKmock/issues"
+  },
+  "homepage": "https://github.com/AdityaRon1993/RDKmock#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  }
+}
